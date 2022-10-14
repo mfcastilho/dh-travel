@@ -27,7 +27,7 @@ header{
 .logo-icon{
   vertical-align: bottom;
   color: white;
-  height: 2.2rem;
+  font-size: 2.1rem;
 }
 
 .menu, .logo{
@@ -71,3 +71,14 @@ header{
   padding-bottom: 1rem;
 }
 
+footer{
+  margin-top: 2.6rem;
+  background-color: #3AB4F2;
+  text-align: center;
+  height: 11.2rem;
+}
+
+footer h6{
+  font-size: 1.6rem;
+  line-height: 11.2rem;
+}
