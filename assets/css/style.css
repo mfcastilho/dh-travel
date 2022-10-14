@@ -10,6 +10,7 @@ html{
 
 body{
   font-size: 1.6rem;
+  background-color: #EFEFEF;
 }
 
 .content{
@@ -20,10 +21,10 @@ body{
 header{
   background-color: #0078AA;
   height: 10vh;
-  padding: 0 10%;
+  padding: 0 14%;
 }
 
-.icone-logo{
+.logo-icon{
   vertical-align: bottom;
   color: white;
   height: 2.2rem;
@@ -43,5 +44,30 @@ header{
   line-height: 10vh;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+
+.banner h1{
+  font-size: 4.8rem;
+  text-align: center;
+  margin: 4.6rem 0 2.2rem 0;
+}
+
+.banner img{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0.6rem;
+  margin-bottom: 5rem;
+}
+
+
+.description{
+  padding: 0 14%;
+}
+
+.description p{
+  margin: 1.1rem 0;
+  padding-bottom: 1rem;
 }
 
