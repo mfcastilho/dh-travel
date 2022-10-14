@@ -11,6 +11,7 @@ html{
 body{
   font-size: 1.6rem;
   background-color: #EFEFEF;
+  font-family: 'Roboto', sans-serif;
 }
 
 .content{
@@ -29,7 +30,9 @@ header{
   color: white;
   font-size: 2.1rem;
 }
-
+.menu-burguer{
+  display: none;
+}
 .menu, .logo{
   display: inline-block; 
   color: #FFFFFF;
@@ -81,4 +84,46 @@ footer{
 footer h6{
   font-size: 1.6rem;
   line-height: 11.2rem;
+}
+
+@media screen and (max-width:480px) {
+  
+
+  header{
+    padding-left:2rem;
+  }
+  
+  .logo, .logo-icon{
+    line-height: 10vh;
+  }
+  .menu{
+    display: none;
+  }
+  .menu-burguer{
+    display: inline-block;
+    float: right;
+    color: white;
+    
+  }
+
+  .menu-burguer span{
+    font-size: 2.969rem;
+    line-height: 10vh;
+  }
+
+  .banner h1{
+    font-size: 3.2rem;
+    
+  }
+
+  .banner img{
+    width: 33.6rem;
+  }
+
+  .description{
+    margin: 0 6%;
+    padding: 0;
+    text-align: justify;
+  }
+
 }
