@@ -87,7 +87,51 @@ footer h6{
   line-height: 11.2rem;
 }
 
-@media screen and (max-width:580px) {
+
+@media screen and (max-width:768px){
+
+  header{
+    padding-left:2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo, .logo-icon{
+    line-height: 10vh;
+  }
+  .menu{
+    display: none;
+  }
+  .menu-burguer{
+    display: inline-block;
+    color: white; 
+  }
+
+  .menu-burguer span{
+    font-size: 2.969rem;
+    line-height: 10vh;
+  }
+
+  .banner h1{
+    font-size: 4.2rem;
+    
+  }
+
+  .banner img{
+    width: 33.6rem;
+  }
+
+  .description{
+    margin: 0 6%;
+    padding: 0;
+    text-align: justify;
+  }
+
+}
+
+
+
+@media screen and (max-width:480px) {
   
 
   header{
